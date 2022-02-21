@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body{
     background-image: url(/img/background.png);
@@ -59,21 +55,19 @@ nav ul li a{
     padding-left: 10px;
 }
 .metaverse-container{
-display: flex;
+    display: flex;
 }
 
 
 
 .d0{
-    flex: 1;
+    flex: 0.5;
     
 }
-.d1{
-    flex: 10;
-}
+
 .inputmax{
-max-width: 477px;
-padding-top: 40px;
+    max-width: 477px;
+    padding-top: 40px;
 
 }
 .input {
@@ -96,7 +90,7 @@ padding-top: 40px;
     padding: 20px;
     outline: none;
   }
-  .inputuser select {
+.inputuser select {
     background: transparent;
     border: 0px solid;
     color: white;
@@ -111,8 +105,7 @@ padding-top: 40px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    height: 49px;
+    height: 50px;
     width: 49px;
     cursor: pointer;
   }
@@ -142,7 +135,7 @@ padding-top: 40px;
 .d2{
     color:#fff;
     flex: 6;
-    background-image: url(/img/HomeImage.png/s);
+    background-image: url(/img/HomeImage.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1070px;
@@ -152,15 +145,14 @@ padding-top: 40px;
 .rdivtxt1{
     font-family: Outfit;
     font-style: normal;
-    max-width: 245px;
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
     color: #FFFFFF;
-    max-width: 245px;
-    height: 87px;
+    max-width: 170px;
+    height: 40px;
     position: absolute;
-    right: 0.5%;
+    right: 1%;
     top: 17.35%;
     padding:19.95px 29.7px 21.9px 26px;
     background: rgba(255, 255, 255, 0.06);
@@ -169,7 +161,7 @@ padding-top: 40px;
 }
 .rdivtxt2{
     position: absolute;
-    left: 2%;
+    left: 0.5%;
     top: 34.2%;
     font-family: Outfit;
     font-style: normal;
@@ -202,8 +194,8 @@ padding-top: 40px;
 .rdivtxt4{
     position: absolute;
     max-width: 193px;
-    right: 6%;
-    bottom: 32%;
+    right: 1%;
+    bottom: 42%;
     font-family: Outfit;
     font-style: normal;
     font-weight: 500;
@@ -219,3 +211,251 @@ padding-top: 40px;
     flex: 0.5;
 }
 
+.raodmap-main{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    width: 100%;
+}
+.row1{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    width: 100%;
+    
+    
+}
+.col1{
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top-right-radius:25px;
+}
+.col2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub-col2-col2{
+    height: 10%;
+   
+}
+
+
+
+
+
+.roadmap-main-content{
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-left: 30px;
+
+}
+.roadmap-lorem-content{
+
+   font-family: Outfit;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 30px;
+   letter-spacing: 0.2px;
+   color: #FFFFFF;
+   padding-left:30px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 10% 10% 15% 45%;
+}
+
+.row2-col2{
+    height: 170px;
+    width: 160px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-center{
+     justify-self: center;
+     max-width: 150px;
+}
+.row2-col3{
+    
+    
+    padding-left: 43px;
+    padding-top:20px;
+    margin: 0px;
+}
+.row2-col3-content{
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin:0px
+}
+.row2-col3-content2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    color: #15C4C6;
+    margin:0px
+}
+.row2-col3-content3{
+   font-family: Outfit;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 25px;
+   color: rgba(255, 255, 255, 0.39);
+   max-width: 200px;
+}
+.row3{
+   display: grid; 
+   grid-template-columns: 15% auto 15%;
+}
+.row3-col1{
+}
+.row3-col2{
+    border-bottom: 2px solid grey;
+    border-left:2px solid grey;
+    height: 15vh;
+    
+}
+.row3-col3{
+    
+}
+.row4{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+.row4-col1{
+
+}
+
+
+.row3-col3-div{
+    max-width: 400px;
+    float:right;
+}
+.row3-col3-content3{
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.39);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+.row5{
+    display: grid;
+    grid-template-columns: 15% auto 15%
+}
+
+.row5-col2{
+    border-top: 2px solid grey;
+    padding: 50px 0px 50px 100px;
+}
+.row5-col3-content3{
+    max-width: 500px; 
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.39);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+.row6{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+.row6-col2{
+    border-top: 2px solid grey;
+    text-align: end;
+    border-right:2px solid grey;
+    padding: 50px 100px 50px 0px;
+}
+
+.row7{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+.row7-col2{
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    padding: 50px 0px 50px 100px;
+}
+.row8{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+
+}
+.row8-col2{
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+    padding: 50px 100px 50px 0px;
+    text-align: end;
+}
+
+
+
+.row4-col2{
+    border-right: 2px solid grey;
+    text-align: end;
+    justify-content: center;
+    padding: 50px 100px 50px 0px;
+}
+.row4-col3{
+    position: relative;
+}
+.row6-col3{
+    position: relative;
+}
+.row8-col3{
+    position: relative;
+}
+.image-right{
+    max-width: 170px;
+    width: 170px;
+    height: 120px;
+    background: rgba(29, 51, 64, 1);
+    position: absolute;
+    border-radius: 25px;
+    text-align: center;
+    left: -35%;
+    top:28%;
+}
+.img-right{
+    text-align: center;
+    width: 85px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+.row5-col1{
+    border-right: 2px solid grey;
+    position: relative;
+}
+.row7-col1{
+    position: relative;
+}
+.image-left{
+    
+    width: 170px;
+    height: 120px;
+    background: rgba(29, 51, 64, 1);
+    position: absolute;
+    border-radius: 25px;
+    text-align: center;
+    right: -36%;
+    top:28%;
+    }
+.img-left{
+    text-align: center;
+    width: 90px;
+    justify-content: center;
+    padding-top: 15px;
+}
